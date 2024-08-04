@@ -37,7 +37,7 @@ Crie um banco de dados para o _bot_ e configure as tabelas necessárias.
 Use os scripts da pasta "scriptsSQL"
 ```
 
-Configuração do Ambiente:    
+Configuração do Ambiente:     d
 Crie um arquivo .env na raiz do projeto com suas credenciais.   
 ```
 Use o arquivo envModel.txt como modelo para as variáveis necessárias.
