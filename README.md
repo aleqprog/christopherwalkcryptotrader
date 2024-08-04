@@ -37,7 +37,7 @@ Utilize o arquivo requirements.txt para instalar as bibliotecas necessárias:
 pip install -r requirements.txt
 ```
 
-## Bibliotecas utilizadas      
+## 📦 Bibliotecas utilizadas      
 numpy: Cálculos numéricos.    
 pyodbc: Conexão e manipulação de banco de dados SQL Server.    
 humanize: Formatação de tempo e números.    
@@ -46,9 +46,11 @@ telethon: Integração com o Telegram.
 reportlab: Geração de relatórios em PDF.    
 python-dotenv: Gerenciamento de variáveis de ambiente.      
 
-## RUN 🚀
+## 🚀 RUN! 
 
 ```
 python fAllParameters.py
 ```
-![init_christo](https://github.com/user-attachments/assets/b82a52b9-1ca5-488f-9e3a-d7429de5b1f2)
+### Parâmetros inciais 
+___
+![init_christo](https://github.com/user-attachments/assets/ad391fbc-f9ab-418d-ab60-2f9cac98d2a0)
