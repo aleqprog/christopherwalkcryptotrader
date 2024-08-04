@@ -1,21 +1,33 @@
-# Christopher Walk - CryptoTrader
+# Christopher Walk - _CryptoTrader_
 
-Este projeto é um bot de trading de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O bot inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, e integrar com o Telegram para captar sinais de grupos.    
+Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, e integrar com o Telegram para captar sinais de grupos e envio de e-mail (_gmail_) com os resultados obtidos do trade.   
 ___
+
+
+#### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como EMA, RSI e Stochastic RSI, estão configurados neste projeto, e você pode implementar novos caso deseje.
+___
+
+
 ## 📌 Funcionalidades
 Compra e Venda Automatizada nas seguintes corretoras:
 
-Binance: Spot e Futures   
-Mexc: Spot  
-Kucoin: Spot   
-Latoken: Spot   
-Digifinex: Spot    
+_Binance: Spot and Futures_   
+_Mexc: Spot_  
+_Kucoin: Spot_   
+_Latoken: Spot_   
+_Digifinex: Spot_    
 
 Gravação de Dados: Armazena informações de transações de mercado em um banco de dados SQL Server.     
-Integração com o Telegram: Recebe sinais de grupos do Telegram para auxiliar nas decisões de trading.   
-Geração de relatório para análise dos resultados obtidos.   
+Integração com o Telegram: Recebe sinais de grupos do Telegram para auxiliar nas decisões de _trading_.   
+Geração de relatório para análise dos resultados obtidos.  
+Envio de e-mail com dados do trade.    
+
+### 🔩 Modo simulação 
+Neste modo, é possível simular uma entrada com base no preço atual, passando o percentual de ganho e perda. Isso permite prever potenciais lucros e riscos.
 
 ### 📋 Pré-requisitos
+
+Crie uma conta de e-mail no Gmail e habilite a senha de app a ser utilizada no arquivo .env 
 
 Instalação do Banco de Dados SQL Server:
 
