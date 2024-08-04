@@ -2,7 +2,7 @@
 
 Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, integrar com o Telegram para captar sinais de grupos e envio de e-mail com os resultados obtidos do trade.   
 ___
-
+xx
 
 #### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como _EMA_, _RSI_ e _Stochastic RSI_, estão configurados neste projeto, e você pode implementar novos caso deseje.
 ___
