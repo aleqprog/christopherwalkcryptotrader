@@ -4,7 +4,7 @@ Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza opera�
 ___
 
 
-#### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como EMA, RSI e Stochastic RSI, estão configurados neste projeto, e você pode implementar novos caso deseje.
+#### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como _EMA_, _RSI_ e _Stochastic RSI_, estão configurados neste projeto, e você pode implementar novos caso deseje.
 ___
 
 
@@ -32,7 +32,7 @@ Crie uma conta de e-mail no Gmail e habilite a senha de app a ser utilizada no a
 Instalação do Banco de Dados SQL Server:
 
 Certifique-se de ter o SQL Server instalado e configurado em seu ambiente.
-Crie um banco de dados para o bot e configure as tabelas necessárias.   
+Crie um banco de dados para o _bot_ e configure as tabelas necessárias.   
 ```
 Use os scripts da pasta "scriptsSQL"
 ```
