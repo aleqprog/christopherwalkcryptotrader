@@ -1,6 +1,6 @@
 # Christopher Walk - _CryptoTrader_
 
-Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, e integrar com o Telegram para captar sinais de grupos e envio de e-mail (_gmail_) com os resultados obtidos do trade.   
+Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, integrar com o Telegram para captar sinais de grupos e envio de e-mail com os resultados obtidos do trade.   
 ___
 
 
