@@ -22,9 +22,15 @@ Integração com o Telegram: Recebe sinais de grupos do Telegram para auxiliar n
 Geração de relatório para análise dos resultados obtidos.  
 Envio de e-mail com dados do trade.    
 
-### 🔩 Modo simulação 
+###  :shipit: Modo simulação 
 Neste modo, é possível simular uma entrada com base no preço atual, passando o percentual de ganho e perda. Isso permite prever potenciais lucros e riscos.
+___
+### 🔴 Aviso Importante sobre Segurança
+___
+Por favor, leia atentamente antes de configurar o projeto.
 
+Este projeto utiliza um arquivo .env para armazenar informações sensíveis, como chaves de API e credenciais de acesso. É essencial que estas chaves e credenciais sejam mantidas em segredo e não sejam compartilhadas sob nenhuma circunstância.    
+___
 ### 📋 Pré-requisitos
 
 Crie uma conta de e-mail no Gmail e habilite a senha de app a ser utilizada no arquivo .env 
@@ -36,7 +42,6 @@ Crie um banco de dados para o _bot_ e configure as tabelas necessárias.
 ```
 Use os scripts da pasta "scriptsSQL"
 ```
-
 Configuração do Ambiente:    
 Crie um arquivo .env na raiz do projeto com suas credenciais.   
 ```
@@ -63,6 +68,6 @@ python-dotenv: Gerenciamento de variáveis de ambiente.
 ```
 python fAllParameters.py
 ```
-### Parâmetros inciais 
+### Parâmetros iniciais 
 ___
-![init_christo](https://github.com/user-attachments/assets/ad391fbc-f9ab-418d-ab60-2f9cac98d2a0)
+
