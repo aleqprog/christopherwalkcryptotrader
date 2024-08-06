@@ -4,7 +4,7 @@ Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza opera�
 ___
 
 
-#### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como _EMA_, _RSI_ e _Stochastic RSI_, estão configurados neste projeto, e você pode implementar novos caso deseje.
+#### 📢 Indicadores disponíveis: _EMA_, _RSI_ e _Stochastic RSI_
 ___
 
 
