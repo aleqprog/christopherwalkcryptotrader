@@ -71,3 +71,10 @@ python fAllParameters.py
 ### Parâmetros iniciais 
 ___
 
+![init_christo](https://github.com/user-attachments/assets/96dadd8c-3562-4e36-8d58-b1e4dd8c541f)
+
+___
+### 📧 Exemplo de retorno via E-mail
+___
+
+![email_chrs](https://github.com/user-attachments/assets/993a70f6-29a0-4ff8-a127-b16f798e0898)
