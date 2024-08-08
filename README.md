@@ -1,10 +1,10 @@
 # Christopher Walk - _CryptoTrader_
 
-Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, e integrar com o Telegram para captar sinais de grupos e envio de e-mail (_gmail_) com os resultados obtidos do trade.   
+Este projeto é um _bot_ de _trading_ de criptomoedas simples que realiza operações de compra e venda via APIs de várias corretoras. O _bot_ inclui funcionalidades adicionais para gravar dados em um banco de dados, gera relatório para análise, integrar com o Telegram para captar sinais de grupos e envio de e-mail com os resultados obtidos do trade.   
 ___
 
 
-#### 📢 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de aprendizado, desenvolvimento e testes. Alguns indicadores, tais como EMA, RSI e Stochastic RSI, estão configurados neste projeto, e você pode implementar novos caso deseje.
+#### 📢 Indicadores disponíveis: _EMA_, _RSI_ e _Stochastic RSI_
 ___
 
 
@@ -22,9 +22,15 @@ Integração com o Telegram: Recebe sinais de grupos do Telegram para auxiliar n
 Geração de relatório para análise dos resultados obtidos.  
 Envio de e-mail com dados do trade.    
 
-### 🔩 Modo simulação 
+###  :shipit: Modo simulação 
 Neste modo, é possível simular uma entrada com base no preço atual, passando o percentual de ganho e perda. Isso permite prever potenciais lucros e riscos.
+___
+### 🔴 Aviso Importante sobre Segurança
+___
+Por favor, leia atentamente antes de configurar o projeto.
 
+Este projeto utiliza um arquivo .env para armazenar informações sensíveis, como chaves de API e credenciais de acesso. É essencial que estas chaves e credenciais sejam mantidas em segredo e não sejam compartilhadas sob nenhuma circunstância.    
+___
 ### 📋 Pré-requisitos
 
 Crie uma conta de e-mail no Gmail e habilite a senha de app a ser utilizada no arquivo .env 
@@ -32,11 +38,10 @@ Crie uma conta de e-mail no Gmail e habilite a senha de app a ser utilizada no a
 Instalação do Banco de Dados SQL Server:
 
 Certifique-se de ter o SQL Server instalado e configurado em seu ambiente.
-Crie um banco de dados para o bot e configure as tabelas necessárias.   
+Crie um banco de dados para o _bot_ e configure as tabelas necessárias.   
 ```
 Use os scripts da pasta "scriptsSQL"
 ```
-
 Configuração do Ambiente:    
 Crie um arquivo .env na raiz do projeto com suas credenciais.   
 ```
@@ -63,6 +68,13 @@ python-dotenv: Gerenciamento de variáveis de ambiente.
 ```
 python fAllParameters.py
 ```
-### Parâmetros inciais 
+### Parâmetros iniciais 
 ___
-![init_christo](https://github.com/user-attachments/assets/ad391fbc-f9ab-418d-ab60-2f9cac98d2a0)
+
+![init_christo](https://github.com/user-attachments/assets/96dadd8c-3562-4e36-8d58-b1e4dd8c541f)
+
+___
+### 📧 Exemplo de retorno via E-mail
+___
+
+![email_chrs](https://github.com/user-attachments/assets/993a70f6-29a0-4ff8-a127-b16f798e0898)
